@@ -4,7 +4,11 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+
 nikola = {extras = ["extras"]}
+"boto3" = "*"
+"python-dotenv" = "*"
+
 
 
 
